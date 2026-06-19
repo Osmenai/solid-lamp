@@ -2,3 +2,5 @@
 
 redirect=None, status=None)) after connection broken 'NewConnectionError('<pip. vendor.urllib3.connection. HTTPSConnectio n object at Ox7f92f3f5b260>: Failed to establish a new connection: [Errno 111] Connection refused')': /simple/playwright/ WARNING: Retrying (Retry (total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip. vendor.urllib3.connection. HTTPSConnectio n object at 0x7f92f3f06b10>: Failed to establish a new connection: [Errno 111] Connection refused')': /simple/playwright/ WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip. vendor.urllib3.connection.HTTPSConnectio n object at 0x7f92f3f283e0>: Failed to establish a new connection:
  Connection refused')': /simple/playwright/
+set http_proxy=
+set https_proxy=
